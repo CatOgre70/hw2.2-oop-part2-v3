@@ -11,5 +11,11 @@ public class Main {
         serviceStation.check(car);
         System.out.println("truck = " + truck);
         serviceStation.check(truck);
+
+        bicycle.doService();
+        car.doService();
+        truck.doService();
+
+
     }
 }
