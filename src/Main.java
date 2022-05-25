@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Bicycle bicycle = new Bicycle("Орлёнок", 2);
-        Car car = new Car("лада Калина", 4);
+        Car car = new Car("Лада Калина", 4);
         Truck truck = new Truck("Камаз", 8);
 
         ServiceStation serviceStation = new ServiceStation();

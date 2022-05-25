@@ -1,4 +1,4 @@
-public class Truck extends Vehicle implements Service{
+public class Truck extends Vehicle{
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
@@ -6,7 +6,12 @@ public class Truck extends Vehicle implements Service{
 
     public void doService(){
         super.doService();
+        checkEngine();
         checkTrailer();
+    }
+
+    private void checkEngine(){
+        System.out.println("Проверяем двигатель");
     }
 
     private void checkTrailer(){
